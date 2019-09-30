@@ -1,0 +1,16 @@
+{
+  "name": "distributed_system",
+  "version": "1.0.0",
+  "description": "project for cmpe273",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Shiyan Cai",
+  "license": "ISC"
+}
