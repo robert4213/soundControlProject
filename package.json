@@ -2,7 +2,7 @@
   "name": "distributed_system",
   "version": "1.0.0",
   "description": "project for cmpe273",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -17,6 +17,9 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "mongoose-auto-increment": "^5.0.1",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
