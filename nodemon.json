@@ -1,6 +1,0 @@
-{
-    "env":{
-        "MONGO_USER":"shiyan",
-        "MONGO_PWD":"123456abcd"
-    }
-}

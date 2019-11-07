@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BsServer",
+            "request": "launch",
+            "mainClass": "bsserver.BsServer",
+            "projectName": "bsserver"
+        }
+    ]
+}
