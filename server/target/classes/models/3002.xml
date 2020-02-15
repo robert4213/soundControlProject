@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LWM2M  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>Light</Name>
+        <Description1>Description: The sound sensor value</Description1>
+        <ObjectID>3002</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:ext:3002</ObjectURN>
+        <MultipleInstances>Multiple</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="1">
+                <Name>Light Status</Name>
+                <Operations>E</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration/>
+                <Units>Defined by “Units” resource.</Units>
+                <Description>Current Status for Light, 1 is On, 0 is Off</Description>
+            </Item>
+        </Resources>
+        <Description2/>
+    </Object>
+</LWM2M>

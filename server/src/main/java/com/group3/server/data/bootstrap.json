@@ -1,0 +1,50 @@
+{
+  "Client1": {
+    "toDelete": [
+      "/0",
+      "/1"
+    ],
+    "servers": {
+      "0": {
+        "shortId": 1345,
+        "lifetime": 10,
+        "defaultMinPeriod": 1,
+        "notifIfDisabled": true,
+        "binding": "U"
+      }
+    },
+    "security": {
+      "0": {
+        "uri": "coap://172.20.10.11:5683",
+        "bootstrapServer": true,
+        "securityMode": "NO_SEC",
+        "publicKeyOrId": [],
+        "serverPublicKey": [],
+        "secretKey": [],
+        "smsSecurityMode": "NO_SEC",
+        "smsBindingKeyParam": [],
+        "smsBindingKeySecret": [],
+        "serverSmsNumber": "",
+        "serverId": 111,
+        "clientOldOffTime": 1,
+        "bootstrapServerAccountTimeout": 0
+      },
+      "1": {
+        "uri": "coap://172.20.10.11:4466",
+        "bootstrapServer": false,
+        "securityMode": "NO_SEC",
+        "publicKeyOrId": [],
+        "serverPublicKey": [],
+        "secretKey": [],
+        "smsSecurityMode": "NO_SEC",
+        "smsBindingKeyParam": [],
+        "smsBindingKeySecret": [],
+        "serverSmsNumber": "",
+        "serverId": 1345,
+        "clientOldOffTime": 1,
+        "bootstrapServerAccountTimeout": 0
+      }
+    },
+    "acls": {}
+  }
+}
